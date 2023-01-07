@@ -1,34 +1,137 @@
-*{
+* {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
-.banner{
+
+/* header styles */
+.banner {
     background-image: url("images/banner/banner3.png");
     height: 808px;
     background-repeat: no-repeat;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 130px;
 }
-.banner-box{
+
+.banner-box {
     width: 525px;
     text-align: right;
 }
-.banner-title{
+
+.banner-title {
     color: #FFFFFF;
     font-weight: 700;
     font-size: 65px;
     margin-bottom: 24px;
 }
-.banner-text{
+
+.banner-text {
     color: #FFFFFF;
     font-weight: 400;
     font-size: 16px;
     margin-bottom: 32px;
     line-height: 26px;
 }
-.btn-primary{
+
+.btn-primary {
     width: 160px;
     height: 64px;
+    color: #005FAC;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+/* main styles */
+/* section failure styles */
+.failure {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 87px;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 130px;
+}
+
+.failure h3 {
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 24px;
+}
+
+.failure p {
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+
+.failure li {
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+/* section plan styles */
+.plans {
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-bottom: 130px;
+}
+.plans .title{
+    text-align: center;
+}
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 130px;
+}
+
+.plans h3 {
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.plans h4 {
+    color: #151414;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    margin-top: 24px;
+    margin-bottom: 18px;
+}
+
+.plans p {
+    color: #737272;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+}
+/* ads area */
+.ads{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-bottom: 130px;
+    /* background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%); */
+    background-image: url("images/gradient1.png"), url("images/watch.png");
+}
+.ads-item{
+    padding: 60px;
+}
+.ads h3{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    width: 459px;
+    margin-bottom: 24px;
 }
