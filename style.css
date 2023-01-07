@@ -149,7 +149,8 @@
     display: flex;
     gap: 100px;
     background:#80a2f8;
-    padding: 130px 150px;
+    padding: 130px 230px;
+    justify-content: space-around;
 }
 .contact .section-title{
     text-align: left;
